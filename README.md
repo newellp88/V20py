@@ -5,7 +5,8 @@ Check out the examples folders for ideas for implementing strategies
 using traditional indicators and some predictive machine learning indicators in
 research and live environments.
 
-[FOREX Research](examples/fx_correlation_heatmap.png)
+
+(https://github.com/newellp88/V20py/tree/master/examples/fx_correlation_heatmap.png)
 
 The best way to access and use this package is cloning this repository:
 git clone https://github.com/newellp88/V20py.git
