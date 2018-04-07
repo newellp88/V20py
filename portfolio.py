@@ -13,11 +13,6 @@ class Portfolio:
 
     def __init__(self):
         self.api = API(token)
-        self.openOrders = openOrders()
-        self.killTrades = killTrades()
-        self.statistics = statistics()
-        self.monitor = monitor()
-        self.applyTS = applyTS()
 
     # returns a dictionary of open orders, with IDs, long/short bias, and averagePrice of open trades for an asset
     def openOrders(self, instrument_list):
