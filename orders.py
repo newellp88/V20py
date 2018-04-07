@@ -14,14 +14,9 @@ from oandapyV20.contrib.requests import (MarketOrderRequest,
 
 class Orders:
 
-    def __init__(self, should_print=True):
+    def __init__(self, should_print=False):
         self.api = API(token)
         self.should_print = should_print
-        self.weight = weight()
-        self.order = order()
-        self.trailingStop = trailingStop()
-        self.close = close()
-        self.closeAll = closeAll()
 
     def weight(self, price, allocation):
         trade_margin = float(margin_available) * self.allocation
