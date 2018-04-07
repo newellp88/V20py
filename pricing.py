@@ -11,8 +11,6 @@ class Pricing:
 
     def __init__(self):
         self.api = API(token)
-        #self.history = history()
-        #self.stream = stream()
 
     # returns the last 500 OHLCV candles for an instrument
     # maximum count is 500
