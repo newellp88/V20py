@@ -1,9 +1,9 @@
-PyV20 wraps around the oandapyV20 package, simplifying many of the functions
-therein and making the OANDA API more accessible to newer algo traders.
+# Introduction
 
-Check out the examples folders for ideas for implementing strategies
-using traditional indicators and some predictive machine learning indicators in
-research and live environments.
+This is an example of how to use and customize the ["non-official OANDA V20py package"](https://github.com/hootnot/oanda-api-v20). 
 
-The best way to access and use this package is cloning this repository:
-git clone https://github.com/newellp88/V20py.git
+'''
+$ pip install oandapyV20
+'''
+
+It is intended for educational purposes, to get proficient Python users up to speed quickly with the basics of automated forex trading, and nothing else. This project could be extended with professional portfolio and money management tools, and potentially with websockets and PySpark Streaming for better connections and tighter control of streaming data.
